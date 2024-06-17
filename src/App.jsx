@@ -1,6 +1,8 @@
 /* eslint-disable no-unused-vars */
 import data from "../blog-data.json";
+import './Reset.css';
 import './App.css'
+import Header from "./components/Header";
 
 function App() {
   
@@ -8,7 +10,7 @@ function App() {
   return (
     <>
       <div id="App">
-        <h1>Hello!</h1>
+        <Header />
       </div>
     </>
   )
