@@ -1,0 +1,28 @@
+#blog-post-sub-text {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 33.6px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+#blog-post-info {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#blog-post-heading:hover {
+    color: #0085A1;
+    cursor: pointer;
+}
+
+#blog-post-sub-text:hover {
+    color: #0085A1;
+    cursor: pointer;
+}
+
+#blog-post-info:hover {
+    color: #0085A1;
+    cursor: pointer;
+}

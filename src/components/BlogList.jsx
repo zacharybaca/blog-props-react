@@ -1,10 +1,11 @@
 import "../BlogList.css";
+import BlogPost from "./BlogPost";
 
 function BlogList() {
     return (
         <div id="blog-list">
             <ul>
-                <li>First Blog</li>
+                <li><BlogPost /></li>
                 <hr />
             </ul>
             <div id="button-container">

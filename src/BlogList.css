@@ -10,7 +10,7 @@
     font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 800;
     line-height: 1.2;
-    text-align: center;
+    text-align: start;
     width: 35%;
 }
 
@@ -28,7 +28,10 @@
     text-decoration-style: solid;
     vertical-align: middle;
     color: #fff;
-    padding: 3%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
     text-transform: uppercase;
     letter-spacing: 0.0625em;
     background-color: rgb(0, 113, 137);
@@ -36,11 +39,6 @@
 }
 
 #button-container > button:hover {
-    cursor: pointer;
-}
-
-li:hover {
-    color: #0085A1;
     cursor: pointer;
 }
 
