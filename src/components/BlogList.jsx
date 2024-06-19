@@ -1,11 +1,26 @@
+/* eslint-disable react/jsx-key */
+/* eslint-disable no-unused-vars */
 import "../BlogList.css";
 import BlogPost from "./BlogPost";
+import posts from "../../blog-data.json";
 
 function BlogList() {
+    
+    
     return (
         <div id="blog-list">
             <ul>
-                <li><BlogPost /></li>
+                {posts.map((post) => {
+                    return (
+                    <li><BlogPost 
+                            title={post.title}
+                            subTitle={post.subTitle}
+                            author={post.author}
+                            date={post.date}
+                        />
+                    </li>
+                    
+                )})}
                 <hr />
             </ul>
             <div id="button-container">
