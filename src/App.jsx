@@ -3,6 +3,7 @@ import data from "../blog-data.json";
 import './Reset.css';
 import './App.css'
 import Header from "./components/Header";
+import BlogList from "./components/BlogList";
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
     <>
       <div id="App">
         <Header />
+        <BlogList />
       </div>
     </>
   )
