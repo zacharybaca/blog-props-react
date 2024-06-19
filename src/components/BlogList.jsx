@@ -21,7 +21,6 @@ function BlogList() {
                     </li>
                     
                 )})}
-                <hr />
             </ul>
             <div id="button-container">
                 <button type="button">Older Posts</button>

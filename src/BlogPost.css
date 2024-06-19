@@ -26,3 +26,7 @@
     color: #0085A1;
     cursor: pointer;
 }
+
+hr {
+    width: 100%;
+}
